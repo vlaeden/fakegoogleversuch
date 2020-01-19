@@ -1,0 +1,51 @@
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	height: 75vh;
+}
+
+
+.search {
+  position:absolute;
+    left:35%;
+    top:50%;
+    width:30%;
+    background-color:white;
+    color:grey;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 1px solid #C0C0C0;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.button1{
+	position:absolute;
+    left:40%;
+    top:60%;
+    width:30%;
+    background-color:none;
+    color:grey;
+}
+.button2{
+	position:absolute;
+    left:52%;
+    top:60%;
+    width:30%;
+    background-color:none;
+    color:grey;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+
+}
